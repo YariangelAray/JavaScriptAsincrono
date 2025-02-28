@@ -26,11 +26,9 @@ imprimirNumeros(desde, hasta); //Llamamos a la función y enviamos los argumento
 let imprimirNumeros2 = (desde, hasta) => {
   let id = setInterval(() => { //Asignamos su identificador a una variable id
     console.log(desde++); // Se imprime el número y luego se incrementa el valor
+    if (desde > hasta) clearInterval(id); //Evaluamos que la variable desde sea mayor que hasta para cancelar la ejecución.
   }, 1000);
 
-  //setTimeout que nos permite cancelar la ejecucion del setInterval, se ejecutará despues que pasen los segundos y evaluará si el desde es mayor que el hasta
-  // hasta*1000 nos permite calcular la cantidad de segundos que deben transcurrir para poder evaluar la condición
-  setTimeout(() => { if (desde > hasta) clearInterval(id); }, (hasta*1000));
 }
 
 // setTimeout que nos ayuda a ejecutar la segunda función despues de que se ejecute la primera 
