@@ -21,6 +21,10 @@ let map = (arreglo, callback) => {
 
 let arreglo = [1, 4, 5, 7, 6, 2, 8, 3];
 let arreglo2 = map(arreglo, duplicar);
-// mostramos el arreglo por consola.
-console.log("Arreglo duplicado: ");
+
+console.log("Arreglo: ");
+arreglo.forEach(num => {console.log(num + " ")});
+
+// mostramos el arreglo nuevo por consola.
+console.log("Arreglo con números duplicados: ");
 arreglo2.forEach(num => {console.log(num + " ")});
