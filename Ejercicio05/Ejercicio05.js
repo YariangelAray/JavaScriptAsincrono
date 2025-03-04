@@ -9,7 +9,7 @@
 // función pasada como callback
 let esImpar = num => num%2 != 0;
 
-//función map
+//función every
 let every = (arreglo, callback) => {
   
     // recorremos el arreglo

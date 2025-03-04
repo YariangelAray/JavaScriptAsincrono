@@ -10,7 +10,7 @@
 // función pasada como callback
 let esPar = num => num%2 == 0;
 
-//función map
+//función filter
 let filter = (arreglo, callback) => {
   let arreglo2 = [];
   // recorremos el arreglo
