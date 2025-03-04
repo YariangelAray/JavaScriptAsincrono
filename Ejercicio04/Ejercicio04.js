@@ -7,7 +7,7 @@
 
 // Pero escribiremos el código a la antigua
 
-// función pasada como callback
+// función enviada como callback
 let esPar = num => num%2 == 0;
 
 //función filter

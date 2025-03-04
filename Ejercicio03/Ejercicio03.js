@@ -6,7 +6,7 @@
 
 // Pero escribiremos el código a la antigua
 
-// función pasada como callback
+// función enviada como callback
 let duplicar = num => num * 2;
 
 //función map

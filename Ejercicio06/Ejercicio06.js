@@ -9,7 +9,7 @@
 // Pero escribiremos el código a la antigua
 
 
-// función pasada como callback
+// función enviada como callback
 let esPrimo = num => {
     if (num === 0 || num === 1) return false;
 
