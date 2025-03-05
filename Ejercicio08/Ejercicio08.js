@@ -13,14 +13,13 @@ let divisibleTres = num => num % 3 === 0;
 
 //función findIndex
 let findIndex = (arreglo, callback) => {
-  let indice;
     // recorremos el arreglo
   for (let i = 0; i < arreglo.length; i++) {
     // si el resultado de la función callback es true, se retorna el indice del primer elemento que se encuentre
-    if(callback(arreglo[i])) return indice = i;
+    if(callback(arreglo[i])) return i;
   }
   // si no se encuentra ninguna coincidencia, retorna la variable vacia.
-  return indice;
+  return undefined;
 }
 
 let arreglo = [1, 4, 5, 7, 6, 2, 8];
