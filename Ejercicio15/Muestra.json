@@ -1,0 +1,72 @@
+[
+    {
+      "id": 1,
+      "nombre": "Manuel Ardila",
+      "edad": 19,
+      "email": "manuel.ardila@gmail.com",
+      "telefono": "+573001112233"
+    },
+    {
+      "id": 2,
+      "nombre": "María Gómez",
+      "edad": 30,
+      "email": "maria.gomez@gmail.com",
+      "telefono": "+573002223344"
+    },
+    {
+      "id": 3,
+      "nombre": "Juan Rodríguez",
+      "edad": 28,
+      "email": "juan.rodriguez@gmail.com",
+      "telefono": "+573003334455"
+    },
+    {
+      "id": 4,
+      "nombre": "Laura Fernández",
+      "edad": 22,
+      "email": "laura.fernandez@gmail.com",
+      "telefono": "+573004445566"
+    },
+    {
+      "id": 5,
+      "nombre": "David López",
+      "edad": 35,
+      "email": "david.lopez@gmail.com",
+      "telefono": "+573005556677"
+    },
+    {
+      "id": 6,
+      "nombre": "Andrea Torres",
+      "edad": 27,
+      "email": "andrea.torres@gmail.com",
+      "telefono": "+573006667788"
+    },
+    {
+      "id": 7,
+      "nombre": "Javier Ramírez",
+      "edad": 32,
+      "email": "javier.ramirez@gmail.com",
+      "telefono": "+573007778899"
+    },
+    {
+      "id": 8,
+      "nombre": "Sofía Herrera",
+      "edad": 29,
+      "email": "sofia.herrera@gmail.com",
+      "telefono": "+573008889900"
+    },
+    {
+      "id": 9,
+      "nombre": "Miguel Castro",
+      "edad": 26,
+      "email": "miguel.castro@gmail.com",
+      "telefono": "+573009990011"
+    },
+    {
+      "id": 10,
+      "nombre": "Elena Vargas",
+      "edad": 31,
+      "email": "elena.vargas@gmail.com",
+      "telefono": "+573000001122"
+    }
+]
