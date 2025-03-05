@@ -6,7 +6,7 @@ async function obtenerDatos() {
       console.log(datos);     
     } catch (error) {
       //Capturamos y mostramos el error si la petición falla
-      console.error(error); 
+      console.error( "La petición ha fallado: " + error); 
     }
 }
 
