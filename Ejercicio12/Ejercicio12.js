@@ -1,7 +1,7 @@
 //Declaramos la función asincrónica
 const f = async () => {
     //Creamos la promesa 
-    let resultado = await new Promise (resolve => setTimeout(() => resolve("Operacion completada"), 1000));
+    let resultado = await new Promise (resolve => setTimeout(resolve, 1000, "Operacion completada")); //Rsolvemos la promesa despues del segundo
     //Mostramos el resultado
     alert(resultado); 
 }
