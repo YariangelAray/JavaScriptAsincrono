@@ -12,6 +12,8 @@ const handler = { // Se crea el objeto manipulador que interceptará y redefinir
 //Se crea el objeto proxy usuario
 const usuario = new Proxy(target, handler);
 
+console.log("Objeto Proxy creado");
+
 //Tratamos de acceder a sus propiedades.
 console.log(usuario.nombre);
 console.log(usuario.edad);

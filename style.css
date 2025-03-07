@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+}
+
+:root{
+    --fondo: #49243E ;
+    --color1: #211121;
+    --color2: #704264;
+    --color3: #BB8493;
+    --color4: #DBAFA0;
+}
+
+body{
+    background-color: var(--fondo);
+    position: relative;
+}
+
+.links{
+    width: 400px;
+    margin: 50px auto 50px;
+    background-color: var(--color1);
+    border-radius: 30px;
+    box-shadow: var(--color1) 0px 0px 10px 1px;
+}
+
+.link{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: var(--color2);
+    background-color: var(--color4);
+    padding: 10px;
+    border-bottom: var(--color3) 1px solid;
+    font-family: "Archivo Black", sans-serif;
+    font-size: 1.1rem;
+    transition: 0.5s;
+}
+.link:first-child{
+    border-radius: 30px 30px 0 0;
+}
+.link:last-child{
+    border-radius: 0 0 30px 30px;
+}
+
+.link:hover{
+    translate: -15px -1px;
+    box-shadow: var(--color2) -3px 0px 10px 5px;
+    border-radius: 0 30px 30px 0;
+}
+
+h1{
+    display: flex;
+    width: max-content;
+    margin: 40px auto 0;
+    color: var(--color3);
+    font-family: "Archivo Black", sans-serif;
+    font-size: 3rem;
+    filter:drop-shadow(var(--color1) 0 5px 5px);
+
+}
+h2{
+    text-align: center;
+    color: var(--color2);
+}
+
+.boton{
+    display: flex;
+    width: 100px;
+    height: 40px;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    position: absolute;    
+    left: 50px;
+    top: 10px;
+    color: var(--color4);
+    border-radius: 50px;
+    border: solid 1px var(--color4);
+    box-shadow: 0 0 5px 1px var(--color1);
+    transition: 0.5s;
+}
+.boton:hover{
+    background-color: #211121;
+    width: 105px;
+    height: 42px;
+}
+.contenedor{
+    width: 700px;
+    height: max-content;
+    margin: 80px auto 40px ;
+    border-radius: 20px;
+    padding:30px;
+    border: solid 1px var(--color4);
+    box-shadow: 0 0 8px 2px var(--color1);
+    color: var(--color4);
+}
+p{
+    width: 100%;
+}
+ul,ol{
+    padding-left: 50px;
+}
+.imagen{
+    width: 100%;
+}
